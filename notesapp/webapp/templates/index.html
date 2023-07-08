@@ -4,4 +4,9 @@
 
 {% block content %}
   <h1 class="text-xl text-mena-green">NotesApp</h1>
+  <ul>
+    {% for x in list %}
+      <li class="text-white">{{ x }}</li>
+    {% endfor %}
+  </ul>
 {% endblock %}

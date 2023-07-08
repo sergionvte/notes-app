@@ -731,6 +731,16 @@ select {
   margin-right: auto;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -790,4 +800,9 @@ select {
 .text-mena-green {
   --tw-text-opacity: 1;
   color: rgb(112 154 121 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
